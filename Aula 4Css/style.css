@@ -1,0 +1,24 @@
+body{background-image: url('Imagens/maxresdefault.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{font-size: 70px;
+border-style: outset;
+border-width: 5px;
+}
+
+ul{color: gray;}
+
+header{color: gray;}
+
+footer{color: gray;}
+
+.CarroAzul{color: royalblue;}
+
+/*#bloco{background-color: aquamarine; width: 100px;}*/
+
+/*#exemplo p {color: aliceblue;}
+#exemplo ul{color: antiquewhite;}*/
+
+
