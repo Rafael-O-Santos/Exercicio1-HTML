@@ -1,0 +1,46 @@
+body
+{ 
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.ca
+{
+    display: flex;
+    justify-content: center;
+    background-color: #168aad;
+}
+
+
+.tit
+{
+    display: flex;
+    justify-content: start;
+}
+
+.ladinho
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cord1
+{
+    background-color: #76c893;
+    padding: 8px;
+    margin: 10px;
+}
+
+.cord2
+{
+    background-color: #76c893;
+    margin: 10px;
+    padding: 8px;
+}
+
+.cord3
+{
+    background-color: #76c893;
+    margin: 10px;
+    padding: 8px;
+}
