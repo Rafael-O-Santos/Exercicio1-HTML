@@ -1,0 +1,185 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.menu
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+  display: flex;
+  align-items: center;
+}
+
+nav ul, nav li
+{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav a
+{
+    display: block;
+ text-decoration: none;
+ padding: 15px;
+ color: #727272;
+}
+
+
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+nav .active, nav a:hover
+{
+    background-color: #39aee1;
+    color: #FFFF
+}
+
+#banner
+{
+    background-image: url('/PROJETO-SITE/src/images/img1.jpeg');
+    height: 670px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.column
+{
+    flex-direction: column;
+    justify-content: start;
+}
+
+.banner_headline
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.banner_headline h1
+{
+    color: #FFF;
+    font-size: 58px;
+    text-shadow: 0px 1px 0px #5555;
+    margin: 0;
+    padding: 0;
+}
+.banner_headline h2
+{
+    color: #FFF;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #5555;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    max-width: 350px;
+}
+
+.banner_options
+{
+    height: 210px;
+    display: flex;
+}
+
+.banner1, .banner2, .banner3
+{
+    flex: 1;
+    color: #FFF;
+    padding: 20px;
+}
+.banner1
+{
+    background-color: #39aee1;
+}
+.banner2
+{
+    background-color: #0079c7;
+}
+.banner3
+{
+    background-color: #2b4c99;
+}
+
+.banner_title
+{
+    font-size: 20px;
+}
+
+.banner_desc
+{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_options a
+{
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+#geral
+{
+    display: flex;
+    justify-content: center;
+}
+
+.content_title
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content_title_text
+{
+    font-size: 21px;
+    font-weight: bold;
+}
+.content_bar
+{
+    width: 50px;
+    height: 5px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+#rodape
+{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
